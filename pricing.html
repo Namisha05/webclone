@@ -1,0 +1,165 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="function.js"></script>
+  <link rel="stylesheet" href="pricingstyle.css">
+    <title>Plans & Pricing | Noisli</title>
+    <link rel="icon" href="assets/logo.jpg" type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://www.noisli.com/"><h4>Noisli</h4></a>
+          <div class="collapse navbar-collapse" id="mynavbar">
+                <a class="nav-link" href="how-it-works.html"><h6>How it Works</h6></a>
+                <a class="nav-link" href="features.html"><h6>Features</h6></a>
+                <a class="nav-link" href="pricing.html"><h6>Pricing</h6></a>
+                <a id="login" class="nav-link" href="login.html"><h6>Log In</h6></a>
+                <a id= "signin" class="btn btn-primary" type="button" href="signup.html"><h6>Sign Up</h6></a>
+              <hr height="2px" color="gray">
+          </div>
+        </div>
+      </nav>
+      <div class="section1">
+            <h2><b>Plans and Pricing</b></h2>
+            <br>
+            <h6>You can upgrade and downgrade your plan any time.</h6>
+      </div>
+      <div class="paymentmode">
+      <p>Billed Monthly</p>
+      <label class="switch">
+        <input type="checkbox" id="payment" onclick="changeValue()">
+        <span class="slider"></span>
+      </label>
+      <p>Billed Yearly</p> <p class="best">(BEST VALUE)</p>
+    </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-sm-4" id="img1">
+            <h5><b>Free</b></h5>
+            <h6 class="type">Basic</h6>
+            <h3>$0</h3>
+            <p class="user">For 1 user</p>
+            <p>16 sounds <br>
+            3 curated Playlists <br>
+            Save up to 5 Favorites <br>
+            Simple Timer <br>
+            Simple Text Editor <br>
+            - <br> - <br> - <br> - <br> -
+            </p>
+            <button class="btn btn-primary btns">Go free</button>
+            </div>
+            <div class="col-sm-4" id="img1">
+                <h5><b>Pro</b></h5>
+                <h6 class="type">For Individuals</h6>
+                <h3 id="price1" value="12">$12</h3>
+                <h6 class="type">per month <br> (billed monthly)</h6>
+                <p class="user">For 1 user</p>
+                <p>28 sounds<br>
+                  Unlimited streaming<br>
+                  10 curated Playlists<br>
+                  Save up to 10 Favorites<br>
+                  Advanced Timer <br>
+                  Advanced Text Editor<br>
+                  Oscillation<br>Shuffle<br>Custom Background Color<br> - <br>-
+                </p>
+                <button class="btn btn-primary btns">Go Pro</button>
+                </div>
+                <div class="col-sm-4" id="img1">
+                  <h5><b>Business</b></h5>
+                  <h6 class="type">For Teams</h6>
+                  <h3 id="price2" value="28">$28</h3>
+                  <h6 class="type">per month <br> (billed monthly)</h6>
+                  <div class="counter-container">
+                    <button onclick="decrement()">-</button>
+                    <span id="counter">2</span>users
+                    <button onclick="increment()">+</button>
+                </div>
+                  <p>28 sounds<br>
+                    Unlimited streaming<br>
+                    10 curated Playlists<br>
+                    Save up to 10 Favorites<br>
+                    Advanced Timer <br>
+                    Advanced Text Editor<br>
+                    Oscillation<br>Shuffle<br>Custom Background Color<br>Team Management<br>Centralised Billing
+                  </p>
+                  <button class="btn btn-primary btns">Go Business</button>
+                  </div>
+        </div>
+        </div>
+        <div class="part2">
+        <p class="type">All the features are only available on and intended for modern browsers on desktop <br> and laptop computers. Prices shown are in USD and VAT/GST inclusive.</p>
+        <h2><b>Frequently asked questions</b></h2>
+        <div class="section2">
+          <h6><b>System requirements</b></h6>
+          <p>At the moment, all the features are only available on and intended only for modern browsers on desktop and laptop computers running Mac or Windows. If you are using a browser not in the list below, or an older browser or computer, or accessing from a mobile device, some or all features may not be fully supported and you might encounter difficulties. We recommend to keep things up to date.
+            Minimum browser requirements: Google Chrome (latest version), Mozilla Firefox (latest version), Safari (latest version), Edge (latest version).</p>
+        </div>
+        <div class="section2">
+          <h6><b>Will my subscription renew automatically?</b></h6>
+          <p>Yes, once you’re subscribed to the Pro or Business plan your subscription will renew automatically on the next billing date, unless you downgrade to the Free plan at least 24 hours before the next billing date. You will be billed either monthly or yearly depending on the billing cycle you have chosen.
+          </p>
+        </div>
+        <div class="section2">
+          <h6><b>Can I cancel my subscription at any time?</b></h6>
+          <p>Yes, you can cancel your subscription and downgrade to the Free plan at any time. The change will become effective at the end of the already paid period, and until then, you can continue to use all the Pro or Business features (depending on which plan you’re on). After the already paid period is over, you will be automatically downgraded to the Free plan.
+          </p>
+        </div>
+        <div class="section2">
+          <h6><b>What are my payment options?</b></h6>
+          <p>You can pay with Visa, Mastercard, Maestro, American Express, Discover, Diners Club, JCB as well as Paypal.</p>
+        </div>
+        <div class="section2">
+          <h6><b>Do you offer any discount for students or teachers?</b></h6>
+          <p>Yes, we offer a special discount for students, teachers and educational institutions. You can find more information
+            <a href="https://support.noisli.com/do-you-offer-any-discount-for-students-or-teachers/">here</a>. </p>
+        </div>
+      </div>
+      <div class="footer1">
+        <h5><b>Need more help?</b></h5>
+          <button id= "signup" class="btn btn-primary" type="button" href="https://support.noisli.com/"><h6>Go to Support</h6></button>
+      </div>
+    <footer class="container-fluid">
+      <div class="row">
+        <div class="col-sm-2"><h4>Noisli</h4></div>
+        <div class="col-sm-2">
+          <h6><b>COMPANY</b></h6>
+          <p>
+          <a href="https://about.noisli.com/">About Us</a> <br>
+          <a href="https://about.noisli.com/jobs/">Jobs</a> <br>
+          <a href="support@noisli.com">Contact</a></p> <br>
+        </div>
+        <div class="col-sm-2">
+          <h6><b>PRODUCT</b></h6>
+          <a href="features">Features</a> <br>
+          <a href="pricing">Pricing</a> <br>
+          <a href="https://www.noisli.com/apps">Apps</a> <br>
+          <a href="https://support.noisli.com/">Support</a> <br>
+        </div>
+        <div class="col-sm-2"><h6><b>MORE</b></h6>
+          <a href="https://www.noisli.com/education">Eduction</a> <br>
+          <a href="https://www.noisli.com/work">Work</a> <br>
+          <a href="https://affiliates.noisli.com/">Affiliate Program</a> <br>
+        </div>
+        <div class="col-sm-2"><h6><b>Resources</b></h6>
+          <a href="features">Blog</a> <br>
+          <a href="pricing">How it Works</a> <br>
+        </div>
+        <div class="col-sm-2">
+          <h6><b>Get the Apps</b></h6>
+          <img src="D:\Desktop\Semester\SPRING'24\CSCS342-webdev\Lab04\assets\Download on the App Store.PNG" alt="" width="180" height="130">
+          <img src="D:\Desktop\Semester\SPRING'24\CSCS342-webdev\Lab04\assets\google-play-badge.PNG" alt="" width="160" height="70">
+          <img src="D:\Desktop\Semester\SPRING'24\CSCS342-webdev\Lab04\assets\available on chrome.PNG" alt="" width="140" height="50">
+        </div>
+      </div>
+      <div class="last"><p>© 2013–2024 Noisli.com
+      <a href="https://about.noisli.com/terms/">Terms & Privacy</a>
+      <a href="https://about.noisli.com/impressum/">Impressum</a>
+      <a href="https://www.noisli.com/how-it-works#">Cookie settings</a></p>
+    </div></footer>
+</body>
+</style>
+</html>

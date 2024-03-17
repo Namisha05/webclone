@@ -1,0 +1,67 @@
+a{
+    color:rgb(161, 159, 159);
+}
+.lg{
+    color:#5CE5B4;
+}
+.radio{
+    width:22px;
+    height: 22px;
+}
+.radio:checked{
+    background-color: #5CE5B4;
+    border-color: #5CE5B4;
+}
+p{
+    font-size: 13px;
+    color:gray;
+}
+input:hover, .google:hover{
+    border: 2px solid #5CE5B4;
+}
+.input{
+    width: 300px;
+    height: 30px;
+    font-size:14px;
+    border: 1px solid rgb(212, 212, 212);
+    margin: 7px;
+    color: rgb(224, 221, 221);
+    padding: 16px;
+    border-radius: 20px;
+}
+.col-sm-7{
+    color: #5CE5B4;
+    font-size: 400%;
+    padding:100px;
+}
+.vr{
+    height: 700px;
+}
+.col-sm-4{
+    text-align: center;
+}
+.btn{
+    background-color:#5CE5B4;
+    border-radius: 40px;
+    color: white;
+    border-color: #5CE5B4;
+    width: 300px;
+    margin:40px;
+    height:35px;
+}
+.google{
+    background-color: white;
+    color:gray;
+    font-size: small;
+    border: 1px solid rgb(212, 212, 212);
+    margin-bottom:20px;
+    margin-top: 10px;
+}
+h5{
+    color: gray;
+    margin-bottom: 40px;
+}
+.heading{
+    color:#5CE5B4;
+    margin:40px;
+}

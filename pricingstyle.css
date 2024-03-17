@@ -1,0 +1,227 @@
+body,a{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(121, 119, 119);
+  }
+  .counter-container {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-family: Arial, sans-serif;
+}
+
+.counter-container button {
+    background-color: white;
+    border: none;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#counter {
+    display: inline-block;
+    min-width: 40px;
+    text-align: center;
+}
+  .paymentmode{
+    text-align: center;
+  }
+  .paymentmode .best{
+    color:#5CE5B4;
+    font-size: 14px;
+    margin:0px;
+  }
+  .payment{
+    text-align: center;
+  }
+  .footer1{
+    text-align: center;
+    margin: 220px;
+  }
+  .footer1 h5{
+    margin:60px;
+    font-size:large;
+  }
+  .footer1 p, .footer1 button{
+      margin:10px;
+  }
+  #loginb{
+    color:#5CE5B4;
+  }
+  ::selection{
+    background-color: rgba(218, 252, 246, 0.733);
+  }
+  img::selection{
+    background-color: transparent;
+  }
+  a:hover {
+  color: rgb(238, 236, 236);
+}
+    .nav-link{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .navbar-brand{
+      color:#5CE5B4;
+      margin-right: 790px;
+      font-size: 22px;
+    }
+    .navbar{
+      color:#5CE5B4;
+      border-bottom: 2px solid #ebeaea;
+      font-family: sans-serif;
+      font-size: 14px;
+      top:0;
+      position:fixed;
+      background-color: white;
+    }
+    #signin, #signup, .btns{
+        background-color:#5CE5B4;
+        border-radius: 40px;
+        color: white;
+        border-color: #5CE5B4;
+        width: 100px;
+        height:35px;
+    }
+    .btns{
+      width:200px;
+    }
+    #signup{
+      width:140px;
+    }
+    .row{
+        margin-left: 90px;
+        margin-top:140px;
+    }
+    #login{
+        padding-left:40px;
+    }
+footer{
+  border-top: 2px solid #e9e6e6;
+  background-color:#fdfafa ;
+  margin: 0px;
+  bottom: 0px;
+}
+footer, footer a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: rgb(121, 119, 119);
+    text-decoration: none;
+  }
+footer a:hover{
+  text-decoration: underline;
+}
+.last {
+  text-align: center;
+  padding: 40px;
+}
+.part2{
+  text-align: center;
+}
+.section2{
+  text-align: left;
+  margin: 60px;
+  margin-left: 400px;
+  width: 600px;
+}
+.section1 {
+    margin-top:100px;
+    text-align:center;
+    font: sans-serif;
+}
+.part2 h2{
+  margin-top:200px;
+}
+.col-sm-4{
+    text-align:center;
+    width: 290px;
+    height: 600px;
+    border: 1px solid rgb(202, 200, 200);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px;
+}
+#number{
+    width: 30px;
+    border: none;
+}
+form{
+    border-color: #cfcdcd;
+    border-radius: 20px;
+}
+.col-sm-4 p, .user, .type{
+    font-family:sans-serif;
+    font-size: 14px;
+}
+.col-sm-4:hover{
+    background-color: #5ce5b510;
+    border: 2px solid #5CE5B4;
+}
+.col-sm-4 h3{
+    margin-top: 30px;
+}
+.user{
+  padding-top: 40px;
+}
+.type{
+    color:rgb(172, 170, 170);
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 30;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#5CE5B4;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color:#5CE5B4;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #5CE5B4;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  .slider {
+    border-radius: 34px;
+  }
+  
+  .slider:before {
+    border-radius: 50%;
+  }
